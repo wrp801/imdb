@@ -138,7 +138,6 @@ if __name__ == '__main__':
 				if k != tv_show: ## delete all the other series
 					del series_to_run[k]
 
-	print(series_to_run)
 	logging.basicConfig(level=logging.INFO)
 	episodes_df = pd.DataFrame()
 	series_df = pd.DataFrame()
